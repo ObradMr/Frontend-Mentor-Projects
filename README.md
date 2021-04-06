@@ -1,2 +1,2 @@
 # Frontend-Mentor-Projects
-My projects from site frontendmentor.io
+In this repository are my solutions to the challenges from the site frontendmentor.io
