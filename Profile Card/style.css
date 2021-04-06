@@ -1,0 +1,111 @@
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --dark-blue: hsl(229, 23%, 23%);
+    --grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+    --light-gray: #dddfdd;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: url(./images/bg-pattern-top.svg) no-repeat, url(./images/bg-pattern-bottom.svg) no-repeat, var(--dark-cyan);
+    background-position: right 52vw top -72vh, left 48vw bottom -87vh;
+    background-clip: border-box, border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Card */
+.card {
+    min-width: 350px;
+    height: 374px;
+    background: url(./images/bg-pattern-card.svg) no-repeat top center, #fff;
+    border-radius: 15px;
+}
+
+/* User profile */
+.user-profile {
+    margin-top: 5.7rem;
+    text-align: center;
+}
+
+.user-profile-img {
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.user-name, .user-stats-number {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.user-name {
+    margin-top: 20px;
+}
+
+.user-age {
+    color: var(--dark-gray);
+}
+
+.user-location {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--dark-gray);
+}
+
+/* User stats */
+.user-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    width: 100%;
+    border-top: 1px solid var(--light-gray);
+}
+
+.user-stats-data {
+    display: inline-block;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 1.5rem;
+    
+}
+
+.user-stats-label {
+    font-size: 12px;
+    color: var(--dark-gray);
+}
+
+.user-stats-number {
+    letter-spacing: 1.5px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    margin-top: 1rem;
+}
