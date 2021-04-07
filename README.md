@@ -6,4 +6,4 @@ Review what I've done for each project in their respective folders or visit the 
 
 ## Finished projects
 
-- [Profile Card](https://github.com/ObradMr/Frontend-Mentor-Projects/tree/frontend-mentor/Profile%20Card)
+- [Profile Card](https://github.com/ObradMr/Frontend-Mentor-Projects/tree/frontend-mentor/Profile%20Card/index)
