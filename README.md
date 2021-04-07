@@ -8,3 +8,4 @@ Review what I've done for each project in their respective folders or visit the 
 
 - [Profile Card](https://obradmr.github.io/Frontend-Mentor-Projects/Profile%20Card/)
 
+- [Solution](https://www.frontendmentor.io/solutions/html-and-css-with-flexbox-SIZe9rMOu)
