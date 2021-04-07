@@ -6,8 +6,5 @@ Review what I've done for each project in their respective folders or visit the 
 
 ## Finished projects
 
-<<<<<<< HEAD
 - [Profile Card](https://obradmr.github.io/Frontend-Mentor-Projects/Profile%20Card/)
-=======
-- [Profile Card](https://github.com/ObradMr/Frontend-Mentor-Projects/tree/frontend-mentor/Profile%20Card)
->>>>>>> fa4d780a9f8d1a177201db7116d3b9e974a4ec75
+
