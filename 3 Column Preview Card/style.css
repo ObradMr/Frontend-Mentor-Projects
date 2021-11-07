@@ -13,3 +13,55 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 90px auto;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    width: 328px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card {
+    width: 328px;
+    height: 440px;
+    display: inline-block;
+    padding: 3rem;
+}
+
+.card-icon {
+    margin-bottom: 2rem;
+}
+
+.card-title {
+    font-size: 2.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: var(--light-gray);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.card-description {
+    line-height: 1.7;
+}
+
+.sedans {
+    background-color: var(--bright-orange);
+}
+
+.suv {
+    background-color: var(--dark-cyan);
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+}
