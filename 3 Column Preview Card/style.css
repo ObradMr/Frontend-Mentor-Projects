@@ -25,7 +25,9 @@ body {
 }
 
 .cards {
-    width: 328px;
+    display: flex;
+    flex-direction: column;
+    /* width: 328px; */
     border-radius: 10px;
     overflow: hidden;
 }
