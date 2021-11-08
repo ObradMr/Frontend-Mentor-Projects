@@ -27,7 +27,6 @@ body {
 .cards {
     display: flex;
     flex-direction: column;
-    /* width: 328px; */
     border-radius: 10px;
     overflow: hidden;
 }
@@ -114,4 +113,25 @@ body {
 .luxury .btn:active {
     background-color: var(--very-dark-cyan);
     color: var(--transparent-white);
+}
+
+/* MEDIA Queries */
+@media (min-width: 768px) {
+    body {
+        margin: 20px auto;
+        height: 100vh;
+    }
+
+    .cards {
+        flex-direction: row;
+    }
+
+    .card {
+        height: 500px;
+        width: 307px;
+    }
+
+    .card-description {
+        margin-bottom: 5.2rem;
+    }
 }
