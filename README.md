@@ -6,6 +6,12 @@ Review what I've done for each project in their respective folders or visit the 
 
 ## Finished projects
 
+## Profile Card project
 - [Profile Card](https://obradmr.github.io/Frontend-Mentor-Projects/Profile%20Card/)
 
 - [Solution](https://www.frontendmentor.io/solutions/html-and-css-with-flexbox-SIZe9rMOu)
+
+## 3 Column Preview Card project
+- [3 Column Card](https://obradmr.github.io/Frontend-Mentor-Projects/3%20Column%20Preview%20Card)
+
+- [Solution]()
