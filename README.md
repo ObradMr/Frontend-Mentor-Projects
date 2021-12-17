@@ -14,4 +14,4 @@ Review what I've done for each project in their respective folders or visit the 
 ## 3 Column Preview Card project
 - [3 Column Card](https://obradmr.github.io/Frontend-Mentor-Projects/3%20Column%20Preview%20Card)
 
-- [Solution]()
+- [Solution](https://www.frontendmentor.io/solutions/3-column-card-component-ZNVShL5fw)
