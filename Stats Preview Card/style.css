@@ -93,8 +93,8 @@ span {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--accent);
-    opacity: 0.25;
+    background-color: hsl(277, 60%, 45%);
+    opacity: 0.50;
     border-radius: 0 10px 10px 0;
 }
 
