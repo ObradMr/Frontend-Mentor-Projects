@@ -25,30 +25,33 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-/* Main card */
+/* Card */
 .card {
-    background-color: var(--card-background);
-    width: 1110px;
-    height: 446px;
-    border-radius: 10px;
-    margin-top: 11rem;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--card-background);
+    width: 327px;
+    height: 780px;
+    margin-top: 5.5rem;
+    border-radius: 10px;
+}
+
+/* card-img */
+.card-img {
+    margin-bottom: 2rem;
 }
 
 /* card-info */
 .card-info {
-    display: flex;
-    flex-direction: column;
-    padding: 0 4.3rem;
+    width: 88%;
+    text-align: center;
 }
 
 /* card-info-title */
 .card-info-title {
-    font-size: 2.2rem;
-    margin-top: 4.5rem;
-    margin-bottom: 1.8rem;
-    letter-spacing: 0.6px;
-    
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 /* span in card-info-title */
@@ -58,52 +61,36 @@ span {
 
 /* card-info-text */
 .card-info-text {
-    font-family: 'Lexend Deca', sans-serif;
-    color: var(--paragraph-white);
-    width: 85%;
     line-height: 1.5rem;
-    margin-bottom: 4.6rem;
-}
-
-/* card-stats */
-.card-stats {
-    display: flex;
-    justify-content: space-between;
-    width: 82%;
-}
-
-.card-stats-number {
-    margin-bottom: 7px;
-}
-
-.card-stats-label {
+    margin: 0 10px 2.3rem;
     color: var(--paragraph-white);
 }
 
-/* card-img */
-.card-img {
-    width: 50%;
-    position: relative;
+/* card-stats-data */
+.card-stats-data {
+    margin-bottom: 2.1rem;
 }
 
-/* Overlay */
-.overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: hsl(277, 60%, 45%);
-    opacity: 0.50;
-    border-radius: 0 10px 10px 0;
+/* card-stats-number */
+.card-stats-number {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
 }
+
+/* card-stats-label */
+.card-stats-label {
+    font-size: 0.9rem;
+    color: var(--paragraph-white);
+}
+
 
 /* img-desktop */
 .img-desktop {
-    border-radius: 0 10px 10px 0;
+    display: none;
 }
 
 /* img-mobile */
 .img-mobile {
-    display: none;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
 }
