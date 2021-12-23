@@ -15,3 +15,8 @@ Review what I've done for each project in their respective folders or visit the 
 - [3 Column Card](https://obradmr.github.io/Frontend-Mentor-Projects/3%20Column%20Preview%20Card)
 
 - [Solution](https://www.frontendmentor.io/solutions/3-column-card-component-ZNVShL5fw)
+
+## Stats Preview Card
+- [Stats Preview Card](https://obradmr.github.io/Frontend-Mentor-Projects/Stats%20Preview%20Card)
+
+- [Solution](https://www.frontendmentor.io/solutions/stats-preview-card-mobile-first-uwUR8tnFp)
